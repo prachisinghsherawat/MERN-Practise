@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Navbar } from "../Navbar/Navbar"
 import "./Header.css"
 
 
@@ -8,7 +9,10 @@ export const Header = () => {
 
         <>
 
+        <div className="mainDiv">
+
         <div className="fonts">
+
             <div>
             <FontAwesomeIcon icon="fa-sharp fa-solid fa-star" />
             </div>
@@ -42,6 +46,11 @@ export const Header = () => {
             </div>
 
         </div>
+
+        <Navbar />
+
+        </div>
+
         </>
     )
 }

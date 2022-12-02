@@ -1,15 +1,22 @@
 
-.fonts{
+
+.mainDiv{
     margin: auto;
-    height: 120px;
-    width: 87%;
+    height: 500px;
+    width: 90%;
+    background-color: rgb(36, 36, 36);
+}
+
+.fonts{
+    
+    height: 130px;
     display: flex;
     justify-content: space-between;
-    border: 1px solid rgb(15, 15, 15);
+    border: 1px solid rgb(219, 216, 216);
 }
 
 .fonts>div{
     width: 9%;
     border-radius: 50%;
-    border: 1px solid rgb(141, 7, 7);
+    border: 1px solid rgb(168, 113, 113);
 }

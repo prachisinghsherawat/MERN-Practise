@@ -1,3 +1,4 @@
+import "./Navbar.css"
 
 
 export const Navbar = () => {
@@ -5,6 +6,8 @@ export const Navbar = () => {
     return(
 
         <>
+
+        <div className="navDiv"></div>
         </>
     )
 }
