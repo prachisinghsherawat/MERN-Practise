@@ -7,7 +7,14 @@ export const Navbar = () => {
 
         <>
 
-        <div className="navDiv"></div>
+        <div className="navDiv">
+            <li>BMX</li>
+            <li>Mountain</li>
+            <li>Road</li>
+            <li>Track</li>
+        </div>
+
+        <div className="greyBox"></div>
         </>
     )
 }

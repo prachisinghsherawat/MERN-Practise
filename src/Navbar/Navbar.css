@@ -2,6 +2,15 @@
 
 .navDiv{
     margin: auto;
-    height: 80px;
-    border: 2px solid black;
+    margin-top: 2%;
+    height: 50px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.navDiv>li{
+    list-style: none;
+    color: white;
 }
