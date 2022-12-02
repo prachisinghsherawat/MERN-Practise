@@ -2,8 +2,9 @@
 
 .mainDiv{
     margin: auto;
+    margin-top: 3%;
     height: 500px;
-    width: 90%;
+    width: 85%;
     background-color: rgb(36, 36, 36);
 }
 
@@ -16,7 +17,7 @@
 }
 
 .fonts>div{
-    width: 9%;
+    width: 10%;
     border-radius: 50%;
     border: 1px solid rgb(168, 113, 113);
 }
