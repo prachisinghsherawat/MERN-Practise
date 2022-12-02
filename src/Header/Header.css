@@ -1,15 +1,15 @@
 
 .fonts{
     margin: auto;
-    height: 140px;
-    width: 90%;
+    height: 120px;
+    width: 87%;
     display: flex;
     justify-content: space-between;
     border: 1px solid rgb(15, 15, 15);
 }
 
 .fonts>div{
-    width: 10%;
+    width: 9%;
     border-radius: 50%;
     border: 1px solid rgb(141, 7, 7);
 }
