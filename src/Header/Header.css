@@ -5,11 +5,11 @@
     width: 90%;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(253, 251, 251);
+    border: 1px solid rgb(15, 15, 15);
 }
 
 .fonts>div{
     width: 10%;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 1px solid rgb(141, 7, 7);
 }
