@@ -1,0 +1,15 @@
+
+.fonts{
+    margin: auto;
+    height: 140px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(253, 251, 251);
+}
+
+.fonts>div{
+    width: 10%;
+    border-radius: 50%;
+    border: 1px solid white;
+}

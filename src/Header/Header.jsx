@@ -1,4 +1,4 @@
-
+import "./Header.css"
 
 
 export const Header = () => {
@@ -8,15 +8,26 @@ export const Header = () => {
         <>
 
         <div className="fonts">
+            <div>
+                <i class="fa-sharp fa-solid fa-star"></i>
+            </div>
+
             <div></div>
+
             <div></div>
+
             <div></div>
+
             <div></div>
+
             <div></div>
+
             <div></div>
+
             <div></div>
+
             <div></div>
-            <div></div>
+            
         </div>
         </>
     )
