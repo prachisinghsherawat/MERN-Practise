@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Home } from "../Home/Home"
 import { Navbar } from "../Navbar/Navbar"
 import "./Header.css"
 
@@ -48,6 +49,8 @@ export const Header = () => {
         </div>
 
         <Navbar />
+
+        <Home /> 
 
         </div>
 
