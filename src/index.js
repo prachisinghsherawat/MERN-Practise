@@ -4,9 +4,11 @@ const connect = require('./configs/db')
 
 const productController = require('./controllers/product-controller')
 
-
 const app = express()
 app.use(express.json())
+
+var cors = require('cors');
+app.use(cors());
 
 app.use('/products', productController)
 
