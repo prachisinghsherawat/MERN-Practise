@@ -8,7 +8,7 @@ const Product = require('../models/product-model')
 router.post('', async(req,res) => {
 
     try {
-        let products = Product.create(req.body)
+        let products = await Product.create(req.body)
         return res.status(200).send(products)
 
     } catch (er) {
@@ -19,7 +19,7 @@ router.post('', async(req,res) => {
 router.get('', async(req,res) => {
 
     try {
-        let products = Product.find().lean().exec()
+        let products = await Product.find().lean().exec()
         return res.status(200).send(products)
 
     } catch (er) {
@@ -30,7 +30,7 @@ router.get('', async(req,res) => {
 router.patch('/:id',async(req,res)=>{
 
     try {
-        let products = Product.findByIdAndUpdate(req.params.id , req.body , {new:true}).lean().exec()
+        let products = await Product.findByIdAndUpdate(req.params.id , req.body , {new:true}).lean().exec()
         return res.status(200).send(products)
 
     } catch (error) {
@@ -38,10 +38,10 @@ router.patch('/:id',async(req,res)=>{
     }
 })
 
-router.patch('/:id',async(req,res)=>{
+router.delete('/:id',async(req,res)=>{
 
     try {
-        let products = Product.findByIdAndDelete(req.params.id).lean().exec()
+        let products = await Product.findByIdAndDelete(req.params.id).lean().exec()
         return res.status(200).send(products)
 
     } catch (error) {
