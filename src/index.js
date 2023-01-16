@@ -3,6 +3,9 @@ const express = require('express')
 
 const connect = require('./configs/db')
 
+const cors = require('cors')
+app.use(cors())
+
 const app = express()
 app.use(express.json())
 
