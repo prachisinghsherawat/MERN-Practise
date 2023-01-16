@@ -6,7 +6,7 @@ const Users = require('../models/user-model')
 
 router.post("/", async(req,res)=>{
     try {
-        let users = await Users.create(req.params.body)
+        let users = await Users.create(req.body)
         return res.status(200).send(users)
         
     } catch (er) {
